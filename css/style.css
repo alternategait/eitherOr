@@ -12,17 +12,18 @@
 /*******************************************/
 #s1, #s2{
   height: 350px;
-  gap: 2%;
-  width: 48%;
+  width: 50%;
 }
 #s2{
-  padding: 20%;
+  padding-top: 15%;
 }
-
+h1{
+  padding: 3% 0;}
 #container{
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 footer {
   margin-top: 8%;}
@@ -32,7 +33,7 @@ footer {
   flex: 1 100%;
   text-align: center;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #s1, #s2, #s3{
     width: 100%;
   }
@@ -41,7 +42,10 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
+button{
+  background-color: #f5b642;
+  text-shadow: 0px 2px whitesmoke;
+}
 
 /* ----SHINY COIN---- */
 /* https://codepen.io/bill0x2A/pen/LYbqZJj */
