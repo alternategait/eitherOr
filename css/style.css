@@ -10,37 +10,32 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-header, footer, #s1, #s2, #s3 {
+#s1, #s2{
   height: 350px;
   gap: 2%;
+  width: 48%;
+}
+#s2{
+  padding: 20%;
 }
 
-header, footer {
-  background-color: lightblue;
-  border: darkblue 3px solid;
-}
 #container{
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-#s1 {
-  background-color: lightcoral;
-  border: red 2px solid;
-  width: 50%;
-  }
+footer {
+  margin-top: 8%;}
 
-#s2 {
-  background-color: lime;
-  border: 2px darkgreen solid;
-  width: 50%;
-}
 
-#s3 {
-  background-color: lavender;
-  border: purple 2px solid;
+#s3, header, footer{
   flex: 1 100%;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  #s1, #s2, #s3{
+    width: 100%;
+  }
 }
 
 /******************************************
