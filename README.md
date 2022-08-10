@@ -14,6 +14,8 @@ I borrowed a CSS coin animation from  https://codepen.io/bill0x2A/pen/LYbqZJj
 ### Optimizations
 
 This is a long term work in progress. I've posted in a pretty rough state, but everything I want for the actual choices is in place. There's a lot to be done "looks" wise. 
+- format for looks
+- figure out why media queries aren't working for mobile
 
 ### Lessons Learned
 - JavaScript syntax for seeking and returning values from input fields.
