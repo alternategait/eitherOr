@@ -10,43 +10,42 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-header, footer, #s1, #s2, #s3 {
+#s1, #s2{
   height: 350px;
-  gap: 2%;
+  width: 50%;
 }
-
-header, footer {
-  background-color: lightblue;
-  border: darkblue 3px solid;
+#s2{
+  padding-top: 15%;
 }
+h1{
+  padding: 3% 0;}
 #container{
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
-#s1 {
-  background-color: lightcoral;
-  border: red 2px solid;
-  width: 50%;
-  }
+footer {
+  margin-top: 8%;}
 
-#s2 {
-  background-color: lime;
-  border: 2px darkgreen solid;
-  width: 50%;
-}
 
-#s3 {
-  background-color: lavender;
-  border: purple 2px solid;
+#s3, header, footer{
   flex: 1 100%;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  #s1, #s2, #s3{
+    width: 100%;
+  }
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
+button{
+  background-color: #f5b642;
+  text-shadow: 0px 2px whitesmoke;
+}
 
 /* ----SHINY COIN---- */
 /* https://codepen.io/bill0x2A/pen/LYbqZJj */
