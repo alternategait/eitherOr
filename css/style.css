@@ -233,3 +233,9 @@ button{
     transform : rotate(25deg) translateY(400px);
   }
 }
+@media screen and (max-width: 400px){
+  #s1, #s2, #s3, header, footer{
+    flex: 1 100%;
+    text-align: center;
+  }
+}
